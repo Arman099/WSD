@@ -1,0 +1,11 @@
+.single-promo h5 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 0.9em;
+    /*letter-spacing: -1.6px;*/
+}
+
+.emphasize {
+    font-size: 6rem !important;
+}
