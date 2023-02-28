@@ -47,3 +47,25 @@
 .navbar-expand.navbar-sticky .navbar-nav .nav-link:hover {
     color: var(--wsd-secondory-color);
 }
+
+.prj-modal {
+    display: flex;
+}
+
+.prj-modal-banner {
+    min-width: 250px;
+    background: url(https://img.freepik.com/free-photo/high-angle-man-with-color-palette_23-2149930934.jpg?t=st=1677582014~exp=1677582614~hmac=725cd9e…) no-repeat scroll center center / cover;
+    background-size: cover;
+    /*min-height: 640px;*/
+}
+
+
+.prj-modal-content {
+    max-height: 500px;
+    overflow-y: scroll;
+    background: url("https://img.freepik.com/free-photo/globe-technology-business-with-gradient-wallpaper_53876-97642.jpg?w=1060&t=st=1677575628~exp=1677576228~hmac=b73e8abe39bbd11a4b8a3999f6fe1040152c86af865d00d2bcc2e04e237892f3") no-repeat scroll center center;
+}
+
+.btn-primary:hover {
+    background: var(--wsd-secondory-color);
+}
