@@ -589,7 +589,7 @@ img {
 }
 
 .overlay-dark::after {
-    background-color: rgba(16, 16, 45, 1);
+    background-color: rgba(16, 16, 45, 0.5);
     opacity: 0.95;
     /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)"; */
     z-index: -1;
@@ -739,11 +739,11 @@ img {
 }
 
 .cta-area {
-    background: rgba(0, 0, 0, 0) url("/WSD/assets/img/bg/cta-bg.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("/assets/img/bg/cta-bg.jpg") no-repeat fixed center center / cover;
 }
 
 .breadcrumb-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/inner_bg.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("/assets1/img/about3.jpg") no-repeat fixed center center / cover;
 }
 
 .blog .breadcrumb-area {
@@ -2393,9 +2393,9 @@ body.dark,
     font-weight: 900;
     line-height: 1em;
     /*letter-spacing: -1.6px;*/
-    background-image: linear-gradient(45deg, #af52ed 15%, #8830df 65%);
+    /* background-image: linear-gradient(45deg, #af52ed 15%, #8830df 65%);
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 .breadcrumb {
