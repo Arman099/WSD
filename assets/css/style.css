@@ -1,11 +1,5 @@
 /* ************************************************************
-:: Template Name: Digimax - SEO & Digital Marketing Agency HTML Template
-:: Template URI: http://theme-land.com/digimax
-:: Template Author Name: theme_land
-:: Template Author URI: hridoy1272@gmail.com
-:: Version: 1.0.0
-:: Created: 13 Aug 2020
-************************************************************ 
+
 *
 *
 ******* :: INDEX OF CSS :: *******
@@ -43,8 +37,8 @@
 /* ******************************
 :: 1.0 WEB FONTS
 ****************************** */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Roboto:wght@300;400&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 /* ******************************
 :: 2.0 IMPORT ALL CSS
 ****************************** */
@@ -65,7 +59,7 @@
 }
 
 body {
-   font-family: 'Yeseva One', cursive;
+    font-family: 'Roboto', cursive;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -107,8 +101,9 @@ h2 {
     font-size: 40px;
     line-height: 1.3;
 }
-b{
-   font-family: roboto; 
+
+b {
+    font-family: roboto;
 }
 
 h3 {
@@ -164,7 +159,7 @@ a:focus,
 .text-body > a {
     text-decoration: underline;
     color: #212529;
-    
+
 }
 
 ol,
@@ -294,9 +289,9 @@ img {
     display: inline-block;
     font-size: 56px;
     font-weight: 700;
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
     line-height: 1em;
-    letter-spacing: -1.6px;
+    /*letter-spacing: -1.6px;*/
 }
 
 @media (max-width: 991px) {
@@ -361,7 +356,7 @@ img {
 .btn.btn-bordered {
     background: transparent none repeat scroll 0 0;
     color: #444;
-    padding-right: 15px;
+    /*padding-right: 15px;*/
 }
 
 .btn.btn-bordered:hover,
@@ -411,7 +406,7 @@ img {
 .btn.btn-bordered-white {
     background: transparent none repeat scroll 0 0;
     border: 2px solid #fff;
-    padding-right: 15px;
+    /*padding-right: 15px;*/
 }
 
 .btn.btn-bordered-white:hover,
@@ -864,7 +859,7 @@ img {
 
 .WSD-preloader p {
     font-family: "Poppins", sans-serif;
-    letter-spacing: 8px;
+    /*letter-spacing: 8px;*/
     color: #3b3b3b;
 }
 
@@ -1215,8 +1210,8 @@ header {
 }
 
 .modal.fade .modal-dialog.dialog-animated {
-    -webkit-transform: translate(100%, 0)scale(1);
-    transform: translate(100%, 0)scale(1);
+    -webkit-transform: translate(100%, 0) scale(1);
+    transform: translate(100%, 0) scale(1);
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
     height: 100%;
@@ -1263,7 +1258,7 @@ header {
     font-size: 45px;
     font-weight: 700;
     line-height: 1em;
-    letter-spacing: -1.6px;
+    /*letter-spacing: -1.6px;*/
 }
 
 /* ******************************
@@ -1278,7 +1273,7 @@ header {
     font-size: 56px;
     font-weight: 700;
     line-height: 1em;
-    letter-spacing: -1.6px;
+    /*letter-spacing: -1.6px;*/
 }
 
 .welcome-intro p {
@@ -1533,9 +1528,9 @@ body.dark,
 .single-promo h3 {
     font-size: 55px;
     font-weight: 700;
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
     line-height: 0.9em;
-    letter-spacing: -1.6px;
+    /*letter-spacing: -1.6px;*/
 }
 
 .homepage-3 .single-promo h3 {
@@ -1888,7 +1883,7 @@ body.dark,
     font-size: 30px;
     font-weight: 600;
     line-height: 0.9em;
-    letter-spacing: -1.6px;
+    /*letter-spacing: -1.6px;*/
 }
 
 .single-service.service-gallery {
@@ -2175,7 +2170,7 @@ body.dark,
 
 .plan-title > h3 {
     font-size: 30px;
-    letter-spacing: -1.6px;
+    /*letter-spacing: -1.6px;*/
 }
 
 .plan-title span {
@@ -2397,7 +2392,7 @@ body.dark,
     font-size: 60px;
     font-weight: 900;
     line-height: 1em;
-    letter-spacing: -1.6px;
+    /*letter-spacing: -1.6px;*/
     background-image: linear-gradient(45deg, #af52ed 15%, #8830df 65%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2682,7 +2677,7 @@ body.dark,
     font-size: 30px;
     font-weight: 700;
     line-height: 0.9em;
-    letter-spacing: -1.6px;
+    /*letter-spacing: -1.6px;*/
 }
 
 .contact-box .form-group input,
