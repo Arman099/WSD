@@ -723,7 +723,7 @@ img {
 
 /*BACKGROUND IMAGES*/
 .welcome-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg1.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("https://img.freepik.com/free-photo/globe-technology-business-with-gradient-wallpaper_53876-97642.jpg?w=1060&t=st=1677575628~exp=1677576228~hmac=b73e8abe39bbd11a4b8a3999f6fe1040152c86af865d00d2bcc2e04e237892f3") no-repeat fixed center center / cover;
 }
 
 .homepage-2 .welcome-area {
