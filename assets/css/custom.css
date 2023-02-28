@@ -1,3 +1,8 @@
+:root {
+    --wsd-primary-color: #000;
+    --wsd-secondory-color: #e20946;
+}
+
 .single-promo h5 {
     font-size: 20px;
     font-weight: 700;
@@ -8,4 +13,37 @@
 
 .emphasize {
     font-size: 6rem !important;
+}
+
+.btn, .btn:active, .btn.btn-bordered:before, .btn.btn-bordered-white:after {
+    background: var(--wsd-primary-color);
+}
+
+
+.color-2.bg-hover:hover::after, .color-2.bg-hover.active::after {
+    background-color: var(--wsd-primary-color);
+}
+
+.color-1.bg-hover:hover::after, .color-1.bg-hover.active::after {
+    background-color: var(--wsd-secondory-color);
+}
+
+.nav-link:hover {
+    color: var(--wsd-secondory-color);
+}
+
+.dropdown-menu {
+    border-radius: 0;
+}
+
+.navbar-expand {
+    padding: 10px 25px;
+}
+
+.navbar-brand-sticky {
+    width: 150px;
+}
+
+.navbar-expand.navbar-sticky .navbar-nav .nav-link:hover {
+    color: var(--wsd-secondory-color);
 }
