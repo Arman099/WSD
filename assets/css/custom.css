@@ -56,6 +56,11 @@
     color: rgba(255, 255, 255, .75);
 }
 
+.navbar-expand .navbar-nav .dropdown-menu  .nav-link.active {
+    color: var(--wsd-secondory-color);
+}
+
+
 .prj-modal {
     display: flex;
 }
