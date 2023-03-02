@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200"  viewBox="0 0 113.207 39.728">
+<svg xmlns= "http://www.w3.org/2000/svg" width="200"  viewBox="0 0 113.207 39.728">
   <defs>
     <style>
       .cls-1, .cls-4 {
@@ -21,7 +21,7 @@
         font-size: 5px;
         font-family: Poppins-Regular, Poppins;
         letter-spacing: 0.34em;
-        fill: #fff
+        fill: #000;
       }
     </style>
   </defs>
