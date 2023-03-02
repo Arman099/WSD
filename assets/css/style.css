@@ -1092,6 +1092,7 @@ header {
     padding-right: 1rem;
     padding-left: 1rem;
     font-family: roboto;
+    line-height: 1;
 }
 
 .navbar-expand .navbar-nav .nav-link:hover {
