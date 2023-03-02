@@ -47,3 +47,25 @@
 .navbar-expand.navbar-sticky .navbar-nav .nav-link:hover {
     color: var(--wsd-secondory-color);
 }
+
+.prj-modal {
+    display: flex;
+}
+
+.prj-modal-banner {
+    min-width: 250px;
+    background: url("/assets/img1/project-side-img.avif") no-repeat scroll center center / cover;
+    background-size: cover;
+    /*min-height: 640px;*/
+}
+
+
+.prj-modal-content {
+    max-height: 500px;
+    overflow-y: scroll;
+    background: url("/assets/img1/heroBG.avif") no-repeat scroll center center;
+}
+
+.btn-primary:hover {
+    background: var(--wsd-secondory-color);
+}
