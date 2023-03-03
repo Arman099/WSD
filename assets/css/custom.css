@@ -64,6 +64,11 @@
 .prj-modal {
     display: flex;
 }
+@media (max-width: 700px) {
+    .prj-modal {
+        display: block;
+    }
+}
 
 .prj-modal-banner {
     min-width: 250px;
