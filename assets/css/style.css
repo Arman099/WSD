@@ -739,11 +739,11 @@ img {
 }
 
 .cta-area {
-    background: rgba(0, 0, 0, 0) url("assets/img1/project.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img1/project.jpg") no-repeat fixed center center / cover;
 }
 
 .breadcrumb-area {
-    background: rgba(0, 0, 0, 0) url("assets/img1/about3.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img1/about3.jpg") no-repeat fixed center center / cover;
 }
 
 .blog .breadcrumb-area {
